@@ -1,0 +1,98 @@
+.whatsupnext {
+    margin-top: 20px;
+    color: $textColor;
+
+    &__form {
+        width: 50%;
+        height: 100%;
+        
+        margin: 0 auto;
+        
+        ::placeholder {
+            color: $textColor;
+        };
+
+    };
+    
+    &__input[type=text] {
+        width: 100%;
+        height: 70px;
+        padding: 12px 15px;
+        margin: 20px 0;
+        box-sizing: border-box;
+
+        font-size: 20px;
+        color: $textColor;
+
+        background-color: $backgroundColorWrapper;
+        border-radius: 10px;
+        border: 1px solid $backgroundColorWrapper;
+      };
+
+      &__dashboard {
+          width: 50%;
+          height: 100%;
+          
+          margin: 0 auto;
+          margin-top: 20px;
+          padding: 20px;
+          background-color: $backgroundColorWrapper;
+          
+          border-radius: 10px;
+          border: 1px solid $backgroundColorWrapper;
+          
+          font-size: 20px;
+      }
+};
+
+.dashboard {
+    &__list {
+        margin-left: 20px;
+        
+        &-item {
+            padding: 7px 0px;
+
+            border-bottom: 1px solid $textColor;
+        };
+    };
+
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+    
+        margin-top: 20px;   
+        
+        font-size: 16px;
+    };
+};
+
+.footer {
+    &__counter {
+        width: 30%;
+    };
+
+    &__list {
+        width: 30%;
+
+        display: flex;
+        justify-content: space-between;
+        
+        list-style-type: none;
+    };
+
+    &__cc-btn {
+        width: 30%;
+        height: 100%;
+
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+
+        background-color: $backgroundColorWrapper;
+        border: none;
+        
+        font-size: 16px;
+        color: $textColor;
+        text-align: right;
+    };
+};

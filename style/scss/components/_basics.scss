@@ -1,7 +1,16 @@
-* {
-    background-color: $background-color;
-}
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap";
 
-h1 {
-    color: $red;
-}
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+};
+
+.body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #a8aaa5;  
+};

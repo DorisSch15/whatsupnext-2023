@@ -5,17 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/scss/main.css">
-    <title>my todo</title>
+    <title>GetMyLifeStraight</title>
 </head>
 <body>
-
-    <h1>My Todo</h1>
-
-    <ul class="todo-list">
-        <li class="list__item">Waschen</li>
-        <li class="list__item">Bügeln</li>
-        <li class="list__item">Kochen</li>
-    </ul>
-    
+    <header class="header">
+        <div class="header__pic"></div>
+        <h1 class="header__title">Whats Up Next In My Life</h1>
+        <button class="header__btn">ChangeColor</button>
+    </header>
+    <main class="whatsupnext">
+        <form action="" class="whatsupnext__form">
+            <input class="whatsupnext__input" type="text" name="newTodo" placeholder="what should I do next ?" required>
+        </form>
+        <div class="whatsupnext__dashboard">
+            <ul class="dashboard__list">
+                <li class="dashboard__list-item">Waschen</li>
+                <li class="dashboard__list-item">Bügeln</li>
+                <li class="dashboard__list-item">Kochen</li>
+            </ul>
+            <div class="dashboard__footer">
+                <div class="footer__counter">
+                    <span class="counter__number">5</span>
+                    <span class="counter__text">items left</span>
+                </div>
+                <ul class="footer__list">
+                    <li class="footer__list-item">All</li>
+                    <li class="footer__list-item">Active</li>
+                    <li class="footer__list-item">Completed</li>
+                </ul>
+                <button class="footer__cc-btn">Clear Completed</button>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
